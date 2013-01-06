@@ -1,0 +1,355 @@
+/*==================================================================*/
+/*                               RESET                              */
+/*==================================================================*/
+
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+*{
+	-webkit-box-sizing: border-box; 		/* Safari/Chrome, other WebKit */
+	-moz-box-sizing: border-box;    		/* Firefox, other Gecko */
+	box-sizing: border-box;        			/* Opera/IE 8+ */
+	*behavior: url(/js/boxsizing.htc);		/* IE 6/7 FFS*/
+	}	
+
+
+
+/*==================================================================*/
+/*                               STYLES                             */
+/*==================================================================*/
+
+
+/*=======================*/
+/*         BASIC         */
+/*=======================*/
+
+html, body{
+	width: 100%;
+	height: 100%;
+}
+
+body	{ background: #1a3504 url(../images/common/body-bg.gif) repeat; }
+
+
+	
+/*=======================*/
+/*        HEADER         */
+/*=======================*/
+
+/* HEADER */
+
+header{
+		width: 820px;
+		height: 237px;
+		margin: 0 auto;
+		position: relative;
+		background: url(../images/nav/header-bg.png) no-repeat;
+}
+
+		.logo{
+			width: 195px;
+			height: 228px;
+			display: block;
+			position: relative;
+			bottom: 37px;
+			margin: 0 auto;
+		}
+
+/* NAV */
+
+	nav{
+		width: 780px;
+		height: 42px;
+		background: url(../images/nav/nav-bg.png) no-repeat;
+		position: relative;
+		top: 118px;
+		margin: 0 auto;
+	}
+	
+	nav ul{
+		width: 100%;
+	}
+		
+		nav li{
+			width: 155px;
+			height: 100%;
+			float: left;
+			display: inline;
+			line-height: 42px;
+			font-family: 'Cinzel Decorative', cursive;
+			text-align: center;
+		}
+			
+			nav li a{
+				width: 100%;
+				height: 100%;
+				display: block;
+				-webkit-transition: all 200ms ease-in-out;
+				-moz-transition: all 200ms ease-in-out;
+				-ms-transition: all 200ms ease-in-out;
+				-o-transition: all 200ms ease-in-out;
+				transition: all 200ms ease-in-out;
+			}
+			
+					
+
+/*=======================*/
+/*         BODY          */
+/*=======================*/
+
+.wrapper{
+	width: 100%;
+	min-height: 100%;
+	margin: 0 auto;
+	background: url(../images/common/light-bg.png) no-repeat fixed center top;
+}
+
+.contents{
+	width: 820px;
+	min-height: 100%;
+	position: relative;
+	padding: 20px 40px 0;
+	margin: 0 auto;
+	background: url(../images/common/contents-bg.png) repeat-y;
+}
+
+section{
+	display: block;
+	min-height: 20px;
+	margin-bottom: 200px;
+	float: left;
+}
+
+
+/* Portfolio thumb styles */
+
+.frame{
+	overflow: hidden;
+	-webkit-box-shadow:  0px 1px 5px 0px #a7a7a7;
+	box-shadow:  0px 1px 5px 0px #a7a7a7;
+	background: #fff;
+	-webkit-transition: all 200ms ease-in-out;
+	-moz-transition: all 200ms ease-in-out;
+	-ms-transition: all 200ms ease-in-out;
+	-o-transition: all 200ms ease-in-out;
+	transition: all 200ms ease-in-out;
+}
+
+	.frame:hover{
+		-moz-transform: scale(1.1) rotate(2deg) translateX(1px) translateY(1px) skewX(0deg) skewY(0deg);
+		-webkit-transform: scale(1.1) rotate(2deg) translateX(1px) translateY(1px) skewX(0deg) skewY(0deg);
+        -o-transform: scale(1.1) rotate(2deg) translateX(1px) translateY(1px) skewX(0deg) skewY(0deg);
+        -ms-transform: scale(1.1) rotate(2deg) translateX(1px) translateY(1px) skewX(0deg) skewY(0deg);
+        transform: scale(1.1) rotate(2deg) translateX(1px) translateY(1px) skewX(0deg) skewY(0deg);
+        -webkit-backface-visibility: hidden;
+        }
+
+	.quarter.frame 	{ height: 157px; }
+
+	.frame span{
+		display: inline;
+		width: 100%;
+		height: inherit;
+		background: url(../images/common/quarter-frame.png) no-repeat left top;
+		position: absolute;
+		z-index: 100;
+	}
+		
+	.frame img{
+		width: 100%;
+		height: 100%;
+		padding: 10px;
+		display: block;
+		margin: 0 auto;
+	}
+
+
+/*=======================*/
+/*        FOOTER         */
+/*=======================*/
+
+footer{
+	width: 820px;
+	height: 50px;
+	background: url(../images/common/footer.gif) no-repeat top;
+	margin: 0 auto;
+}	
+	
+
+/*==================================================================*/
+/*                             TYPOGRAPHY                           */
+/*==================================================================*/
+
+
+/*=======================*/
+/*       HEADINGS        */
+/*=======================*/
+
+h1,h2,h3,h4,h5,h6 { font-family: 'Cinzel Decorative', cursive; }
+
+h1{
+	font-size: 3em;
+	font-weight: 600;
+	color: #6f4d18;
+}
+	
+h2{}
+
+h3{}
+	
+h4{}
+
+h5{}
+
+h6{}
+
+
+
+/*=======================*/
+/*         LINKS         */
+/*=======================*/
+
+a{
+	color: #000;
+	text-decoration: none;
+}
+	
+	a:hover		{ color: #CCC; }
+	
+	a:active	{ color: #DDD; }
+	
+	/* Nav Link Styles */
+	
+	nav li a:hover{
+		font-size: 1.1em;
+		color: #fff;
+		-webkit-transition: all 200ms ease-in-out;
+		-moz-transition: all 200ms ease-in-out;
+        -ms-transition: all 200ms ease-in-out;
+        -o-transition: all 200ms ease-in-out;
+		transition: all 200ms ease-in-out;
+		text-shadow: 0px 1px 6px #393939;
+        filter: dropshadow(color=#393939, offx=0, offy=1);
+	}
+
+
+
+/*=======================*/
+/*       BODY TEXT       */
+/*=======================*/
+
+p{
+	font-family: 'Gudea', sans-serif;
+	font-size: 1em;
+	color: #5f4c2e;
+	line-height: 1.4em;
+	letter-spacing: 0.04em;
+}
+
+
+
+/*=======================*/
+/*         LISTS         */
+/*=======================*/
+
+
+
+
+/*==============================*/
+/*         GRID LAYOUT          */
+/*==============================*/
+
+.full, .half, .twothirds, .third, .quarter { height: inherit; float: left; margin: auto 2.6666667% 30px; } /* Margin is 40px combined */
+
+.full		{ width: 100%; } 		/* 750px */
+.half		{ width: 47.333333%; }	/* 355px */
+.twothirds	{ width: 65.333333%; }	/* 490px */
+.third		{ width: 29.333333%; } 	/* 220px */
+.quarter	{ width: 21%; }			/* 157.5px */
+
+.first		{ margin-left: 0; }
+.last		{ margin-right: 0; }
+
+
+
+
+
+
+/*=====================================================================*/
+/*                             MEDIA QUERIES                           */
+/*=====================================================================*/
+
+	/* Smaller than standard 960 (devices and browsers) */
+	@media only screen and (max-width: 959px) {}
+
+	/* Tablet Portrait size to standard 960 (devices and browsers) */
+	@media only screen and (min-width: 768px) and (max-width: 959px) {}
+
+	/* All Mobile Sizes (devices and browser) */
+	@media only screen and (max-width: 767px) {}
+
+	/* Mobile Landscape Size to Tablet Portrait (devices and browsers) */
+	@media only screen and (min-width: 480px) and (max-width: 767px) {}
+		
+	/* Mobile Portrait Size to Mobile Landscape Size (devices and browsers) */
+	@media only screen and (max-width: 479px) {}
+
+
+
+/*=================================*/
+/*         HELPER CLASSES          */
+/*=================================*/
+
+.left { float: left; }
+.right { float: right; }
+.center { margin: 0 auto; }
+.clear { clear: both; }
+
+hr	{ border: #e0d7be 1px solid; margin: 20px auto;}
+

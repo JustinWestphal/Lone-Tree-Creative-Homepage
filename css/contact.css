@@ -1,0 +1,149 @@
+/*  ========= CONTACT PAGE STYLES  ========= */
+.contact {
+	position: relative;
+	width: 100%;
+	height: auto;}	
+
+#contact_ajax
+{display: none;}
+
+#contact_form
+{margin: 0;}
+
+p.contact_info
+{font-size: 11px;
+margin: 10px 0 20px;
+}
+
+input,  textarea
+{background: #F6EFDF;
+border: 1px solid #C6BAA1;
+-webkit-border-radius: 5px;
+-moz-border-radius: 5px;
+border-radius: 5px;
+color: #000;
+padding: 0.25em;
+font: 18px 'Gudea', sans-serif;}
+
+#contact_form input
+{height: auto;
+width: 100%;
+text-align: center;
+font-size: 24px;
+}
+
+#contact_form textarea
+{width: 100%;
+height: 175px;
+padding: 0.5em;
+font-size: 22px;
+}
+
+input:focus,  textarea:focus
+{background: #E8DFCD;
+border: 1px solid #C3996B;}
+
+input#form_submit
+{height: auto;
+padding: 0.25em;
+background: -moz-linear-gradient(top, #F4EDDD,#D3CAB8);
+background: -webkit-gradient(linear, left top, left bottom, from(#F4EDDD), to(#D3CAB8));
+}
+
+input#form_submit:hover
+{background: -moz-linear-gradient(top,#D3CAB8, #AA9D87);
+background: -webkit-gradient(linear, left top, left bottom, from(#D3CAB8), to(#AA9D87));
+cursor: pointer;
+}
+
+form p
+{position: relative;
+margin: 0 0 15px 0;}
+
+form p label
+{position: relative;
+color: #6f4d18;
+font: 18pt 'Cinzel Decorative', sans-serif;
+}
+
+
+span.error
+{position: relative;
+font-size: 12px;
+color: red;}
+
+span.comment_error
+{clear: both;}  
+
+.error_input
+{border: 1px solid red;}
+
+.success p
+{color: #5aa50e;
+position: relative;
+text-align: center;
+}
+
+#content ul.contact_list
+{list-style: none;
+margin: 0 0 20px 0;
+padding: 0;
+}
+
+.contact_list li:first-child
+{border-top: 1px solid #2b2b2b;
+
+}
+
+.contact_list li
+{padding: 4px 10px 7px 10px;
+border-bottom: 1px solid #2b2b2b;
+}
+
+.contact_list li a
+{
+color: #9f9f9f;
+text-decoration: none;
+display: block;}
+
+.contact_list li.contact_phone
+{padding-left: 23px;
+background: url(../images/phone_Android.png) no-repeat left 7px;
+}
+
+.contact_list li.contact_fax
+{padding-left: 23px;
+background: url(../images/fax.png) no-repeat left 7px;
+}
+
+.contact_list li.contact_email
+{padding-left: 23px;
+background: url(../images/email.png) no-repeat left 8px;
+}
+
+.contact_list li.contact_address
+{padding-left: 23px;
+background: url(../images/house.png) no-repeat left 7px;
+}
+
+.map
+{border: 1px solid white;}
+
+.hide	{ visibility: hidden; }
+
+.wee{
+	display: inline;
+	margin-left: 10px;
+	font: 18px 'Gudea', sans-serif;
+	font-weight: 400;
+	font-style: oblique;
+	color: #c7ab7e;}
+	
+#loader{
+	width: 128px;
+	height: 128px;
+	display: block;
+	margin: 0 auto;
+	background: url(../images/ajax-loader.gif) no-repeat;}	
+
+/*  ========= CONTACT PAGE STYLES END HERE  ========= */
