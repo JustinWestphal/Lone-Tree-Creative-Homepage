@@ -74,7 +74,10 @@ html, body{
 	height: 100%;
 }
 
-body	{ background: #1a3504 url(../images/common/body-bg.gif) repeat; }
+body{
+	min-width: 980px;
+	background: #1a3504 url(../images/common/body-bg.gif) repeat;
+}
 
 
 	
@@ -85,11 +88,13 @@ body	{ background: #1a3504 url(../images/common/body-bg.gif) repeat; }
 /* HEADER */
 
 header{
-		width: 820px;
-		height: 237px;
+		width: 980px;
+/* 		height: 237px; */
+		height: 270px;
 		margin: 0 auto;
 		position: relative;
-		background: url(../images/nav/header-bg.png) no-repeat;
+/* 		background: url(../images/nav/header-bg.png) no-repeat; */
+		background: url(../images/nav/new-header-bg.png) no-repeat bottom;
 }
 
 		.logo{
@@ -104,7 +109,7 @@ header{
 /* NAV */
 
 	nav{
-		width: 780px;
+		width: 960px;
 		height: 42px;
 		background: url(../images/nav/nav-bg.png) no-repeat;
 		position: relative;
@@ -117,7 +122,7 @@ header{
 	}
 		
 		nav li{
-			width: 155px;
+			width: 155px; /************************************************/
 			height: 100%;
 			float: left;
 			display: inline;
@@ -151,18 +156,17 @@ header{
 }
 
 .contents{
-	width: 820px;
+	width: 980px;
 	min-height: 100%;
 	position: relative;
-	padding: 20px 40px 0;
+	padding: 10px 20px 0;/************************************************/
 	margin: 0 auto;
 	background: url(../images/common/contents-bg.png) repeat-y;
 }
 
 section{
-	display: block;
+	display: inline;
 	min-height: 20px;
-	margin-bottom: 200px;
 	float: left;
 }
 
@@ -190,7 +194,7 @@ section{
         -webkit-backface-visibility: hidden;
         }
 
-	.quarter.frame 	{ height: 157px; }
+	.quarter.frame 	{ height: 157px; }/************************************************/
 
 	.frame span{
 		display: inline;
@@ -204,7 +208,7 @@ section{
 	.frame img{
 		width: 100%;
 		height: 100%;
-		padding: 10px;
+		padding: 6px;
 		display: block;
 		margin: 0 auto;
 	}
@@ -215,7 +219,7 @@ section{
 /*=======================*/
 
 footer{
-	width: 820px;
+	width: 960px;/************************************************/
 	height: 50px;
 	background: url(../images/common/footer.gif) no-repeat top;
 	margin: 0 auto;
@@ -290,6 +294,7 @@ p{
 	color: #5f4c2e;
 	line-height: 1.4em;
 	letter-spacing: 0.04em;
+	background-color: #d7d7d7;
 }
 
 
@@ -305,17 +310,24 @@ p{
 /*         GRID LAYOUT          */
 /*==============================*/
 
-.full, .half, .twothirds, .third, .quarter { height: inherit; float: left; margin: auto 2.6666667% 30px; } /* Margin is 40px combined */
+.full, .half, .twothirds, .third, .quarter {
+	display: inline;
+	height: inherit;
+	float: left;
+	margin-left: 10px;/************************************************/
+	margin-right: 10px;/************************************************/
+	margin-bottom: 20px;
+}
 
-.full		{ width: 100%; } 		/* 750px */
-.half		{ width: 47.333333%; }	/* 355px */
-.twothirds	{ width: 65.333333%; }	/* 490px */
-.third		{ width: 29.333333%; } 	/* 220px */
-.quarter	{ width: 21%; }			/* 157.5px */
+.full		{ width: 940px; } 	/* 940px / 100% */
+.twothirds	{ width: 620px; }	/* 610px / 64.893617% */
+.half		{ width: 460px; }	/* 470px / 50% */
+.third		{ width: 300px; } 	/* 310px / 32.978723% */
+.quarter	{ width: 220px; }	/* 230px / 24.46805% */
 
 .first		{ margin-left: 0; }
 .last		{ margin-right: 0; }
-
+.full		{ margin-left: 0; margin-right: 0;}
 
 
 
