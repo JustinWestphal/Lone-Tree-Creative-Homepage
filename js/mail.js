@@ -8,43 +8,6 @@ $(document).ready(function() {
 		var websiteVal = $("#form_website").val();
 		var messageVal = $("#form_message").val();
 				
-
-/*		//if name field is empty, show label in it
-		if(nameVal == '') {
-		$("#form_name").parent().find('label').css('display', 'block');	
-		}
-		
-		//if email field is empty, show label in it
-		if(emailVal == '') {
-		$("#form_email").parent().find('label').css('display', 'block');	
-		}
-		
-		//if website field is empty, show label in it
-		if(websiteVal == '') {
-		$("#form_website").parent().find('label').css('display', 'block');	
-		}
-					
-		
-		//if message field is empty, show label in it
-		if(messageVal == '') {
-		$("#form_message").parent().find('label').css('display', 'block');	
-		}
-
-				
-		//hide labels on focus		
-		$('form input, form textarea').focus(function(){
-			$(this).parent().find('label').fadeOut('fast');		
-		});		
-		
-		//show labels when field is not focused - only if there are no text
-		$('form input, form textarea').blur(function(){
-			var currentInput = 	$(this);	
-			if (currentInput.val() == ""){
-   			 $(this).parent().find('label').fadeIn('fast');
- 			 }
-		});		
-		
-*/		
 	// CONTACT FORM HANDLING SCRIPT - WHEN USER CLICKS "SUBMIT"
 	$("#contact_form #form_submit").click(function(){		
 				   				 		
@@ -61,13 +24,6 @@ $(document).ready(function() {
  			$(this).parent().find('span').fadeOut();	
 		});
 		
-
-		$("#form_message").keypress(function() {	
-			$(this).animate({ 
-  			  width: "380px"
- 			 }, 100); 
-		});
-
 		
 		// set variables
 		var hasError = false;
@@ -128,7 +84,7 @@ $(document).ready(function() {
 		// make an Ajax request
         $.ajax({
             type: "POST",
-            url: "http://www.justinwestphal.com/wordpress/wp-content/themes/jw/php/contact-send.php",
+            url: "../php/contact-send.php",
             data: dataString,
             success: function(){ 
            
@@ -145,16 +101,6 @@ $(document).ready(function() {
 		
 	});		
 	
-	//CONTACT PAGE MAP - CHANE OPACITY ON HOVER
-		$('img.map').css('opacity', '.5');
-		
-		$('img.map').hover(function(){
-			$(this).fadeTo('fast', 1);	
-		},
-		function(){
-			$(this).fadeTo('fast', .5);	
-		});
-
 }); //document.ready function ends here
 
 
