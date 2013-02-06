@@ -47,8 +47,6 @@
 
 <body>
 	
-	 
-	<div class="wrapper">
 		<header id="top">
 			<nav>
 				<ul>
@@ -60,4 +58,5 @@
 			</nav>
 				<a href="index.php"><img src="images/nav/logo.png" alt="logo" width="195" height="228" class="logo" /></a>
 		</header>
+	<div class="wrapper">
 		<div class="contents">

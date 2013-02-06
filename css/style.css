@@ -154,11 +154,12 @@ header{
 /*=======================*/
 
 .wrapper{
+	background: url(../images/common/contents-bg.png) repeat-y;
 	width: 1000px;
-	height: 100%;
+	height: auto;
 	min-height: 100%;
 	position: relative;
-	margin: 0 auto -75px;
+	margin: 0 auto;
 }
 
 .contents{
@@ -241,13 +242,39 @@ img.inset{
 
 	.first.inset	{ margin-left: 0; }
 
+
+/*=======================*/
+/*        FOOTER         */
+/*=======================*/
+
+.footer-spacer{
+	display: block;
+	height: 75px;
+	width: 100%;
+}
+
+footer{
+	background: url(../images/common/contents-bg.png) repeat-y;
+	height: auto;
+	margin: 0 auto;
+	padding-bottom: 20px;
+	text-align: center;
+	width: 1000px;
+	
+	color: #af9e83;
+	font-family: 'Lato', sans-serif;
+	font-size: 0.8em;
+	font-weight: 400;
+	letter-spacing: 0.03em;
+}	
+
 .totop{
 	float: left;
 	height: 49px;
 	width: 100%;
+	margin-bottom: 20px;
 	background: url(../images/common/totop.png) center top;
 	background-repeat: no-repeat;
-	margin: 30px auto 15px;
 	display: block;
 }
 
@@ -261,23 +288,6 @@ img.inset{
 		display: block;
 	}
 
-/*=======================*/
-/*        FOOTER         */
-/*=======================*/
-
-footer{
-	height: auto;
-	margin: 20px auto 0;
-	text-align: center;
-	width: 100%;
-	
-	color: #af9e83;
-	font-family: 'Lato', sans-serif;
-	font-size: 0.8em;
-	font-weight: 400;
-	letter-spacing: 0.03em;
-}	
-	
 
 /*==================================================================*/
 /*                             TYPOGRAPHY                           */
