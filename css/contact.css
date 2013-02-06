@@ -36,7 +36,7 @@ font-size: 24px;
 {width: 100%;
 height: 175px;
 padding: 0.5em;
-font-size: 22px;
+font-size: 18px;
 }
 
 input:focus,  textarea:focus
@@ -63,7 +63,7 @@ margin: 0 0 15px 0;}
 form p label
 {position: relative;
 color: #6f4d18;
-font: 18pt 'Cinzel Decorative', sans-serif;
+font: 18pt 'Lato', 400, sans-serif;
 }
 
 
@@ -80,6 +80,8 @@ span.comment_error
 
 .success p
 {color: #5aa50e;
+font-size: 24px;
+font-weight: 700;
 position: relative;
 text-align: center;
 }
@@ -129,7 +131,7 @@ background: url(../images/house.png) no-repeat left 7px;
 .map
 {border: 1px solid white;}
 
-.hide	{ visibility: hidden; }
+.hide	{ display: none; }
 
 .wee{
 	display: inline;
@@ -144,6 +146,6 @@ background: url(../images/house.png) no-repeat left 7px;
 	height: 128px;
 	display: block;
 	margin: 0 auto;
-	background: url(../images/ajax-loader.gif) no-repeat;}	
+	background: url(../images/contact/ajax-loader.gif) no-repeat;}	
 
 /*  ========= CONTACT PAGE STYLES END HERE  ========= */

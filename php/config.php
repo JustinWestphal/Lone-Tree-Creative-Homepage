@@ -1,4 +1,4 @@
 <?php
 // Enter your e-mail here
-define("webmaster_email", 'elana@lonetreecreative.com');
+define("webmaster_email", 'design@justinwestphal.com');
 ?>
