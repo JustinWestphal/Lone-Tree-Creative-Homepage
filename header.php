@@ -4,9 +4,9 @@
 <head>
 	
 	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
-	<meta name="description" content=""/>
-	<meta name="keywords" content=""/>
-	<meta name="viewport" content="width=1000, initial-scale=1">
+	<meta name="description" content="Lone Tree Creative is a Sandpoint, Idaho based full-service design agency, here to make you look amazing. Specializing in branding, web design, print design, and product design."/>
+	<meta name="keywords" content="sandpoint design, sandpoint web design, sandpoint graphic design, idaho design, idaho graphic design, idaho web design, web design, web, designer, site design, graphic design, graphic, graphic designer, brochure design, business card design, pamphlet, catalog design, poster design, custom design, logo, logo design, identity design, branding, seo, search engine optimization, search engine optimisation, social media marketing, print design, coding, front end, wordpress site, custom wordpress theme, idaho design, pacific northwest design, design agency, design firm, you like reading keywords?"/>
+	<meta name="viewport" content="width=device-width, initial-scale=0.3, minimum-scale=0.25, maximum-scale=5.0, user-scalable=1;">
 	<link href="favicon.ico" rel="SHORTCUT ICON" />
 	
 	<link href="css/style.css" media="screen" rel="stylesheet" type="text/css"/>
@@ -27,7 +27,15 @@
 	<link href='http://fonts.googleapis.com/css?family=Open+Sans:400,700' rel='stylesheet' type='text/css'>
 	<link href='http://fonts.googleapis.com/css?family=Lato:400,700,900' rel='stylesheet' type='text/css'>
 	
-	<title><?php echo($title);?> | Lone Tree Creative | Graphic & Web Design</title>
+	<title>
+	<?php echo($title);?>
+	<?php 
+	$pageName = basename($_SERVER['PHP_SELF'],'.php');
+	if($pageName != 'index'){
+		echo(' | ');
+	}?>
+	
+	Lone Tree Creative | Graphic & Web Design</title>
 	
 	<script type="text/javascript">
 	

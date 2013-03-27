@@ -1,7 +1,7 @@
 <?php 
 $title="";
 $description="Strong, meaningful design to bring your business to the next level.";
-$keywords="web design, web, designer, site design, graphic design, graphic, graphic designer, brochure design, business card design, pamphlet, catalog design, poster design, custom design, logo, logo design, identity design, branding, seo, search engine optimization, search engine optimisation, social media marketing, print design, coding, front end, wordpress site, custom wordpress theme, idaho design, pacific northwest design, design agency, design firm, you like reading keywords?"; ?>
+$keywords="sandpoint design, sandpoint web design, sandpoint graphic design, idaho design, idaho graphic design, idaho web design, web design, web, designer, site design, graphic design, graphic, graphic designer, brochure design, business card design, pamphlet, catalog design, poster design, custom design, logo, logo design, identity design, branding, seo, search engine optimization, search engine optimisation, social media marketing, print design, coding, front end, wordpress site, custom wordpress theme, idaho design, pacific northwest design, design agency, design firm, you like reading keywords?"; ?>
 <?php include('header.php');?>
 	
 			<h1>Let's bring your business to the next level.</h1>

@@ -1,7 +1,7 @@
 <?php 
 $title="Contact";
-$description="Strong, meaningful design to bring your business to the next level.";
-$keywords="web design, web, designer, site design, graphic design, graphic, graphic designer, brochure design, business card design, pamphlet, catalog design, poster design, custom design, logo, logo design, identity design, branding, seo, search engine optimization, search engine optimisation, social media marketing, print design, coding, front end, wordpress site, custom wordpress theme, idaho design, pacific northwest design, design agency, design firm, you like reading keywords?"; ?>
+$description="Lone Tree Creative is a Sandpoint, Idaho based full-service design agency, here to make you look amazing. Specializing in branding, web design, print design, and product design.";
+$keywords="sandpoint design, sandpoint web design, sandpoint graphic design, idaho design, idaho graphic design, idaho web design, web design, web, designer, site design, graphic design, graphic, graphic designer, brochure design, business card design, pamphlet, catalog design, poster design, custom design, logo, logo design, identity design, branding, seo, search engine optimization, search engine optimisation, social media marketing, print design, coding, front end, wordpress site, custom wordpress theme, idaho design, pacific northwest design, design agency, design firm, you like reading keywords?"; ?>
 <?php include('header.php');?>
 				
 			<h1 class="full">Are you ready for some magic?</h1>
