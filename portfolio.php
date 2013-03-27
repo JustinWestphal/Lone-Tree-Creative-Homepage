@@ -6,7 +6,9 @@ $keywords="web design, web, designer, site design, graphic design, graphic, grap
 
 			<section class="full" id="graphic-design">
 				<h1>Graphic Design</h1>
-				<ul class="pieces">
+				<p class="third first">When you're literally putting your business in the hands of your customers &#8212; via your catalog, flyers, brochure, or business card &#8212; you want to make sure you're looking your best. We employ design techniques aimed at stopping people in their tracks. Your customers will notice, and they'll be hooked.</p>
+
+				<ul class="pieces two-thirds last">
 					<li>
 						<a class="fancybox" rel="graphic" href="images/portfolio/graphic/otb-catalog.jpg" title="OTB Catalog Cover">
 							<img src="images/portfolio/graphic/otb-catalog-thumb.jpg" alt="OTB Catalog Cover" />
@@ -38,7 +40,7 @@ $keywords="web design, web, designer, site design, graphic design, graphic, grap
 
 			<section class="full" id="identity">
 				<h1>Branding & Identity</h1>
-				<ul class="pieces">
+				<ul class="pieces two-thirds first">
 					<li>
 						<a class="fancybox" rel="identity" href="images/portfolio/identity/otb.jpg" title="Out of the Blue Eyewear Logo">
 							<img src="images/portfolio/identity/otb-thumb.jpg" alt="Out of the Blue Eyewear Logo" />
@@ -60,6 +62,8 @@ $keywords="web design, web, designer, site design, graphic design, graphic, grap
 						</a>
 					</li>
 				</ul>
+				<p class="third last">Your brand is the soul of your company. It's the feeling your customers get when they think of you. It's your face to the world. We exhaustively research your company (and your competitors) to craft your brand from the ground-up, including a stellar logo, custom brand guidelines, hard-hitting strategy and more. Your customers will never forget.</p>
+
 					<div class="clear"></div>
 				<a href="contact.php">
 					<div class="call-to-action">
@@ -70,7 +74,9 @@ $keywords="web design, web, designer, site design, graphic design, graphic, grap
 
 			<section class="full" id="web-design">
 				<h1>Web Design + Coding</h1>
-				<ul class="pieces">
+				<p class="third first">You want to give your customers and users the best possible experience, so they will fall in love with your brand and keep coming back for more. We stay up on the most cutting-edge methods for engaging users on the web, and employ our laser-focus to ensure your online presence looks incredible on any screen or device. You'll be the talk of the web!</p>
+
+				<ul class="pieces two-thirds last">
 					<li>
 						<a class="fancybox" rel="web" href="images/portfolio/web/otb-site.jpg" title="Out of the Blue Eyewear Site">
 							<img src="images/portfolio/web/otb-site-thumb.jpg" alt="Out of the Blue Eyewear Site" />

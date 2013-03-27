@@ -6,19 +6,19 @@ $keywords="web design, web, designer, site design, graphic design, graphic, grap
 	
 			<h1>Let's bring your business to the next level.</h1>
 			<h3>Pick a category and see how together, we can make business boom.</h3>
-			
+						
 			<div class="third first">
 				<h2><span>Graphic</span></h2>
-				<a href="services.php#graphic-design"><img class="zoom" src="images/index/print-hero-image.png" alt="Print Design" /></a>
+				<a href="portfolio.php#graphic-design"><img class="zoom" src="images/index/print-hero-image.png" alt="Print Design" /></a>
 			</div>
 
 			<div class="third">
 				<h2><span>Identity</span></h2>
-				<a href="services.php#identity"><img class="zoom" src="images/index/identity-hero-image.png" alt="Identity Design" /></a>
+				<a href="portfolio.php#identity"><img class="zoom" src="images/index/identity-hero-image.png" alt="Identity Design" /></a>
 			</div>
 			
 			<div class="third last">
 				<h2><span>Web</span></h2>
-				<a href="services.php#web-design"><img class="zoom" src="images/index/web-hero-image.png" alt="Web Design" /></a>
+				<a href="portfolio.php#web-design"><img class="zoom" src="images/index/web-hero-image.png" alt="Web Design" /></a>
 			</div>
 <?php include('footer.php');?>

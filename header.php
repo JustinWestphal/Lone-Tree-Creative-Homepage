@@ -46,14 +46,14 @@
 </head>
 
 <body>
-	
+
 		<header id="top">
 			<nav>
 				<ul>
 					<li class="left"><a href="index.php">Home</a></li>
-					<li class="left"><a href="services.php">Services</a></li>
+					<li class="left"><a href="about.php">About Us</a></li>
 					<li class="right"><a href="contact.php">Contact</a></li>
-					<li class="right"><a href="portfolio.php">Portfolio</a></li>
+					<li class="right"><a href="portfolio.php">Services</a></li>
 				</ul>
 			</nav>
 				<a href="index.php"><img src="images/nav/logo.png" alt="logo" width="195" height="228" class="logo" /></a>
