@@ -26,7 +26,7 @@ $keywords="web design, web, designer, site design, graphic design, graphic, grap
 					<p><label class="form_label" for='message'>Message</label>
 					<textarea id='form_message' name='message' class="textbox"></textarea></p>
 					
-					<input id='form_submit' type='submit' name='submit' value='Send!' />
+					<input id='form_submit' type='submit' name='submit' value='Send!' onClick="_gaq.push(['_trackEvent', 'Contact Form', 'Form Submit',,, false]);" />
 					
 					<!-- hidden input for basic spam protection -->
 					<div class='hide'>
